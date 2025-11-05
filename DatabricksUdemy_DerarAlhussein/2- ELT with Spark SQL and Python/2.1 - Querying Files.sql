@@ -22,6 +22,11 @@
 
 -- COMMAND ----------
 
+-- MAGIC %python
+-- MAGIC print(f'{dataset_bookstore}')
+
+-- COMMAND ----------
+
 SELECT * FROM json.`${dataset.bookstore}/customers-json/export_001.json`
 
 -- COMMAND ----------
